@@ -1,0 +1,317 @@
+.webcourier-email-marketing-page-title{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 15px 4px 0;
+    line-height: 29px;
+    color: #777;
+    display: inline-block;
+}
+
+.status{
+    display: inline-block;
+    padding: 3px 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold; 
+}
+
+input[type=number] {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}    
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+    width: 14px;
+    height: 14px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    top: 3px;
+    border-radius: 28px;
+}
+
+
+.positive{
+    color:limegreen;
+}
+
+.negative{
+    color:red;
+}
+
+.webcourier-table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.leftsearch{
+    margin-bottom: 20px;
+    display:inline;
+    float:left;
+}
+
+.floatedinfo{
+    margin-top: 20px;
+    float:left;
+}
+
+.marginright{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.click{
+    cursor:pointer;
+}
+
+table td a{
+    color: #444;
+}
+
+.pagination>li>a{
+    color: #444 !important;
+}
+
+.pagination > .active > a{
+    color: white !important;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.sql{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.multiselectcss .btn-group{
+    width: 100%;
+}
+
+.multiselectcss .btn-group button{
+    width: 100%;
+}
+
+.multiselectcss input[type='checkbox'], .multiselectcss input[type='radio']{
+    display:none;
+}
+
+.lbl{
+    cursor: default;
+}
+
+.top-margin{
+    margin-top:30px;
+}
+
+div.darken {
+    position: relative;
+    background: black;
+    padding: 0;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+div.darken div.line {
+    position: absolute;
+    top: 220px;
+    font-size: 24px;
+    z-index: 1000;
+    visibility: hidden;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+div.darken i.dashicons {
+    color: white;
+}
+
+div.darken a {
+    text-decoration: none !important;
+}
+
+div.darken:hover div.line {
+    visibility: visible;
+}
+
+div.darken i.dashicons:hover{
+    cursor: pointer;
+    color: #428bca;
+}
+
+.img_suc{
+    background: white;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #eee;
+}
+
+.img_suc_c{
+    background: white;
+    min-height: 100px;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #eee;
+}
+
+div.darken:hover .img_suc{
+    opacity: 0.6;
+}
+
+.left-padding {
+    margin: 5px 0 0 5px;
+}
+
+.template-choose {
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+div.darken .template-name {
+    position: absolute;
+    top: 20px;
+    font-size: 14px;
+    z-index: 1000;
+    visibility: hidden;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+div.darken:hover .template-name{
+    color: white;
+    visibility: visible;
+}
+
+#template-choose {
+    width: 15%; 
+    border: none;
+    padding: 0px 12px;
+    line-height: 20px;
+}
+
+#iframe-modal .modal-menu {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#iframe-modal .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+#iframe-modal .close{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-shadow: none;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#iframe-modal .close:hover {
+    opacity: 1;
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+#iframe-modal .modal-dialog {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+}
+
+#iframe-modal .modal-content {
+    border-radius: 0;
+}
+
+#iframe-modal .modal-body {
+    padding: 0;
+}
+
+#iframe-content {
+    text-align: center;
+    width : 100%;
+}
+
+#iframe-modal iframe {
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.white{
+    color: white;
+    z-index: 1000;
+}
+
+.template-upload {
+    float: left;
+    margin-left: 5%;
+    width: 70%;
+    display: none;
+    border: 1px solid black;
+    height: 34px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px 12px;
+}
+
+.info-msg-template-upload li{
+    padding: 0;
+    list-style-type: disc;
+    margin-left : 10px;
+}
+
+.myinput{
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px #ccc;
+}
